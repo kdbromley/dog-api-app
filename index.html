@@ -16,12 +16,14 @@
        
        <form>
            <legend>How many dog images would you like to see?</legend>
-           <label for="number">Enter a number (max 50):</label><input id="number" type="text" maxlength="2" value="3"><br>
+           <label for="number">Enter a number (max 50):</label><input id="number" type="text" maxlength="2" value="3" required><br>
            <button type="submit">Show me the dogs!</button>
        </form>
 
-       <section class="img-results">
+       <section class="display-results hidden">
            <h2>Here are your dogs!</h2>
+           <div class="img-results">
+           </div>
        </section>
       </div>
 
